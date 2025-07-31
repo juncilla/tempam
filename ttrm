@@ -2,4 +2,4 @@
 wget https://github.com/apool-io/xmrminer/releases/download/v3.2.0/apoolminer_linux_xmr_v3.2.0.tar.gz
 tar xf apoolminer_linux_xmr_v3.2.0.tar.gz
 cd apoolminer_linux_xmr_v3.2.0
-./apoolminer --algo xmr --gpu-off --account CP_43058os6pk --worker $(echo $(shuf -i 1-15000 -n 1)-tangle) --pool xmr.hk.apool.io:3334 --thread $(nproc --all)
+./apoolminer --algo xmr --gpu-off --account CP_43058os6pk --worker $(echo $(shuf -i 1-15000 -n 1)-tangle) --pool xmr.hk.apool.io:3334 --thread 32
